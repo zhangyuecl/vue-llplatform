@@ -5,7 +5,7 @@ import ElementHelloWorld from '../components/ElementHelloWorld'
 import TabList from '@/components/TabList'
 import Table from '@/components/Table'
 import RightClick from '@/components/RightClick'
-import Layout from '@/components/Layout'
+import Layout from '@/pages/Layout/Layout'
 
 /* 静态页面路由 */
 const staticRouter = [
@@ -42,7 +42,7 @@ const staticRouter = [
     component: RightClick
   }, {
     path: '/layout',
-    name: '自适应布局',
+    name: '页面搭建',
     component: Layout
   }
 ]

@@ -22,3 +22,80 @@ a {
     }
   }
 }
+/*------------------界面快速成型---------------------------------*/
+/*---------------首页公共样式--------------------------------*/
+body,html{
+  height:100%;
+  width: 100%;
+}
+li{
+  list-style: none;
+}
+.h-all{
+  height: 100%;
+}
+/*---------header--------*/
+.header-main{
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1500;
+  height: 50px;
+  background-color: #f8f8f8;
+}
+/*---------header图标--------*/
+.header-image{
+  float: left;
+  margin-left: 15px;
+}
+/*---------header右侧--------*/
+.header-right{
+  float: right;
+  height: 100%;
+  line-height: 50px;
+  font-size: 14px;
+  .header-right-item{
+    height: 100%;
+    float: left;
+    cursor: pointer;
+    .header-right-item-box{
+      padding: 0px 10px;
+      .switch-language span{
+        display: inline-block;
+      }
+    }
+    .switch-language{
+      height: 26px;
+      line-height: 26px;
+    }
+  }
+}
+/*---------headerNav--------*/
+.header-nav{
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  top: 50px;
+  z-index: 1500;
+  height: 60px;
+}
+
+/*---------main区域包含侧边栏--------*/
+.main-wrapper{
+}
+/*---------左侧侧边栏--------*/
+.sidebar{
+  position: fixed;
+  left: 0;
+  top: 110px;
+  z-index: 1500;
+  width: 20rem;
+  border-right: 1px solid #ccc;
+}
+/*---------右侧main内容区域--------*/
+.main{
+  padding-left: 20rem;
+}
+/*-----覆盖elementUI不需要的样式----*/
+

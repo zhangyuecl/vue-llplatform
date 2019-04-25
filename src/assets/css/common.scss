@@ -98,4 +98,9 @@ li{
   padding-left: 20rem;
 }
 /*-----覆盖elementUI不需要的样式----*/
-
+.el-dropdown{
+  color: #2c3e50;
+}
+.el-dropdown-menu__item{
+  color: #2c3e50;
+}

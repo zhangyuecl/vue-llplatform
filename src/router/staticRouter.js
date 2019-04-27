@@ -11,7 +11,11 @@ import Layout from '@/pages/Layout/Layout'
 const staticRouter = [
   {
     path: '/',
-    redirect: '/index'
+    redirect: '/layout'
+  }, {
+    path: '/helloWorld',
+    name: '切换语言',
+    component: HelloWorld
   }, {
     path: '/login',
     name: '登录',
